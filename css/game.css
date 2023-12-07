@@ -2,7 +2,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image: url('../images/bg.jpg');
+  background-image: url('C:\Users\PICHAU\Documents\Tecnologia em Sistemas para Internet\Construção de Páginas na Web II\MemoryGame\MemoryGameOriginal\memory-game\images\wallpaperflare.com_wallpaper (2).jpg'); 
   background-size: cover;
   min-height: 100vh;
   align-items: center;
@@ -40,6 +40,7 @@ header {
   transition: all 400ms ease;
   transform-style: preserve-3d;
   background-color: #ccc;
+
 }
 
 .face {
@@ -55,10 +56,13 @@ header {
 
 .front {
   transform: rotateY(180deg);
+  background-size: cover;
+  background-position: center;
+  
 }
 
 .back {
-  background-image: url('../images/back.png');
+  background-image: url('C:/Users/PICHAU/Documents/Tecnologia em Sistemas para Internet/Construção de Páginas na Web II/MemoryGame/MemoryGameOriginal/memory-game/images/ring.jpg');
   backface-visibility: hidden;
 }
 

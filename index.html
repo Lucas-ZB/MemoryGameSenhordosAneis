@@ -5,29 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Links para os estilos de reset e personalizados da página -->
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/login.css">
 
+  <!-- Link para a fonte 'Cinzel' do Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap">
+
+  <!-- Arquivo JavaScript para a funcionalidade de login -->
   <script defer src="./js/login.js"></script>
   <link rel="shortcut icon" href="./images/brain.png" type="image/x-icon">
+
   <title>Memory Game | Login</title>
+
+  <!-- Estilos internos para o corpo da página -->
+  <style>
+    body {
+      background-image: url('./images/wallpaperflare.com_wallpaper (1).jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Cinzel', sans-serif;
+    }
+ 
+    .image-duplicate {
+      position: fixed;
+      width: 200px;
+      height: auto;
+    }
+
+    .image-top-left {
+      top: 10px;
+      left: 10px;
+    }
+
+    .image-top-right {
+      top: 10px;
+      right: 10px;
+    }
+  </style>
 </head>
 
 <body>
+  
 
+  <!-- GIF no canto inferior esquerdo -->
+  <img src="./images/giphy.gif" alt="GIF" class="gif gif-bottom-left">
+
+  <!-- GIF no canto inferior direito -->
+  <img src="./images/giphy.gif" alt="GIF" class="gif gif-bottom-right">
+
+  <!-- Imagem duplicada no canto superior esquerdo -->
+  <img src="./images/pngwing.com (4).png" alt="Imagem Duplicada" class="image-duplicate image-top-left">
+
+  <!-- Imagem duplicada no canto superior direito -->
+  <img src="./images/pngwing.com (4).png" alt="Imagem Duplicada" class="image-duplicate image-top-right">
+
+  <!-- Seção do formulário de login -->
   <form class="login-form">
-
+    <!-- Cabeçalho para o formulário de login -->
     <div class="login__header">
-      <img src="./images/logo.png" alt="logo">
-      <img src="./images/cerebro.jpg" alt="brain icon">
       <h1>Memory Game</h1>
     </div>
 
-    <input type="text" placeholder="Name" class="login__input">
-    <button type="submit" class="login__button">Play</button>
+     <!-- Campo de entrada para digitar um nome -->
+    <input type="text" placeholder="Nome" class="login__input">
 
+    <!-- Botão para enviar o formulário de login -->
+    <button type="submit" class="login__button">Iniciar</button>
   </form>
-
 </body>
 
 </html>

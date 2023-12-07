@@ -18,9 +18,8 @@
   width: 250px;
 }
 
-
-
 .login__header h1 {
+  font-family: 'Cinzel', sans-serif; /* Aplica a fonte Cinzel ao título h1 */
   color: #333;
   font-size: 1.5em;
 }
@@ -30,6 +29,7 @@
   border-radius: 8px;
   color: #333;
   font-size: 1em;
+  font-family: 'Cinzel', sans-serif;
   margin-bottom: 15px;
   max-width: 300px;
   outline: none;
@@ -43,6 +43,7 @@
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
+  font-family: 'Cinzel', sans-serif;
   font-size: 1em;
   max-width: 300px;
   padding: 15px;
@@ -54,4 +55,33 @@
   border: 2px solid #969595;
   color: #aaa;
   cursor: auto;
+}
+
+.gif {
+  position: fixed;
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+}
+
+.gif-bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.gif-bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+audio {
+  display: none; /* Oculta a barra de reprodução padrão */
+}
+
+.top-centered-image {
+  position: fixed;
+  top: 50px; /* Ajuste a distância do topo conforme necessário */
+  left: 50%; /* Posiciona o elemento no centro horizontal */
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+  width: 200px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
 }
